@@ -1,11 +1,12 @@
 body {
-  background-color: black;
+  background-color: lightBlue;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
   margin-top: 10%;
-  font-family: Georgia, serif;
+  font-family: "Meddon", cursive;
+  font-size: "20";
 }
 
 html{
@@ -14,13 +15,13 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 25px solid gold;
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: lightgray;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -28,9 +29,9 @@ html{
 
 .pic{
   height: 600px;
-  width: 400px;
+  width: 800px;
   object-fit: cover;
-  border: 1px solid black;
+  border: 25px solid gold;
 }
 
 h2{
